@@ -1,0 +1,99 @@
+*{
+    font-family: 'Orbitron', sans-serif;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background: #E5D0E3;
+    }
+.Header {
+    transform: skewY(-5deg);
+}
+.Name {
+    width: 100%;
+    height: 300px;
+    background: #4F345A;
+    transform: skewY(-5deg);
+
+}
+.Name .content {
+    width: 70%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+}
+.Name .content .p1{
+    margin: 8%;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+    transform: skewY(5deg);
+    margin-bottom: 0;
+}
+.Name .content .p2{
+    margin: 8%;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    transform: skewY(5deg);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Name .img {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(5deg);
+    overflow: hidden;
+}
+.Name .img img{
+width: 200px;
+height: 200px;
+}
+.Info   {
+    width: 90%;
+    height: auto;
+    background: #4F345A;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.TituloSeccion1 {
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #E5D0E3 dashed;
+}
+.Info .TituloInfo { 
+    color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size:larger;
+    display: inline;
+    margin-right: 20px;
+}
+.Info .InfoInfo {
+    color: rgb(252, 255, 205);
+    font-family: fantasy;
+    font-weight: normal;
+    font-size: x-large;
+    display: inline;
+}
+.Info span {
+display: inline-block;
+width: auto;
+height: auto;
+padding-left: 1%;
+padding-right: 1%;
+background: #ebdaf1;
+color: #d307bf;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border-radius: 20%;
+}
