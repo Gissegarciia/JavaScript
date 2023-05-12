@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+.displayContainer {
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+    border: dotted 5px saddlebrown;
+    justify-content: center;
+}
+.positionContainer {
+    display: block;
+}
+
+#id4{
+    background-color: blue;
+    position: relative;
+    left: 16px;
+    top: 35px;
+}
